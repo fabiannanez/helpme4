@@ -1,4 +1,4 @@
-package com.example.fabiannanez.salvameversion2;
+package com.example.fabiannanez.salvameversion2.opciones;
 
 import android.app.Activity;
 import android.media.MediaPlayer;
@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.fabiannanez.salvameversion2.R;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,10 +1,12 @@
-package com.example.fabiannanez.salvameversion2;
+package com.example.fabiannanez.salvameversion2.opciones;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.fabiannanez.salvameversion2.R;
 
 public class editar extends AppCompatActivity {
 
