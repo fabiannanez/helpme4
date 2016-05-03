@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fabiannanez.salvameversion2.audio"
+    tools:context=".opciones.audio"
     android:background="@drawable/fondo"
     android:orientation="vertical"
     >
@@ -35,7 +35,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="Grabar"
-            android:textColor="@color/Negro"
+            android:textColor="@color/Amarillo_verde"
             android:onClick="grabar"
             android:background="@drawable/bordes_botones"
             android:layout_below="@+id/textView2"

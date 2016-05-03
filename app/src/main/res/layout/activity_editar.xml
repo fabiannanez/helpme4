@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fabiannanez.salvameversion2.editar"
+    tools:context=".opciones.editar"
     android:background="@drawable/fondo"
     >
         <EditText
@@ -23,7 +23,7 @@
             android:id="@+id/edt_numero"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Escribe Numero"
+            android:hint="Escriba Numero"
             android:textColorHint="@color/Amarillo_verde"
             android:layout_centerVertical="true"
             android:textColor="@color/Blanco"
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="@dimen/button"
             android:layout_height="@dimen/button"
-            android:text="@string/guardar"
+            android:text="Editar"
             android:id="@+id/btn_editar"
             android:background="@drawable/bordes_botones"
             android:textColor="@color/Blanco"

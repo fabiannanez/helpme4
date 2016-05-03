@@ -10,6 +10,10 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.fabiannanez.salvameversion2.opciones.agregar;
+import com.example.fabiannanez.salvameversion2.opciones.editar;
+import com.example.fabiannanez.salvameversion2.opciones.msm;
+
 public class MainActivity extends AppCompatActivity {
 
     TextView info;
@@ -40,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 grabar.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent audio = new Intent(getApplicationContext(), audio.class);
+                        Intent audio = new Intent(getApplicationContext(), com.example.fabiannanez.salvameversion2.opciones.audio.class);
                         startActivities(new Intent[]{audio});
                     }
                 });
@@ -65,10 +69,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.edit:
-                info.setText("Se presionó Editar");
+                Intent inten = new Intent(this, editar.class);
+                startActivity(inten);
                 return true;
             case R.id.delete:
-                info.setText("Se presionó Eliminar");
+                Toast.makeText(MainActivity.this, "Eliminar", Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

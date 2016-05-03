@@ -8,4 +8,5 @@
     <dimen name="semedio">290dp</dimen>
     <dimen name="button">150dp</dimen>
     <dimen name="margin">50dp</dimen>
+    <dimen name="treinta">30dp</dimen>
 </resources>
