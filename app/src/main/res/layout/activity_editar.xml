@@ -16,26 +16,36 @@
             android:layout_height="wrap_content"
             android:hint="Escribe Nombre"
             android:textColorHint="@color/Amarillo_verde"
-            android:layout_marginTop="@dimen/medium"
             android:textColor="@color/Blanco"
-            />
+            android:layout_below="@+id/btn_editar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
         <EditText
             android:id="@+id/edt_numero"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Escriba Numero"
             android:textColorHint="@color/Amarillo_verde"
-            android:layout_centerVertical="true"
             android:textColor="@color/Blanco"
-            />
+            android:layout_below="@+id/edt_nombre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
         <Button
-            android:layout_width="@dimen/button"
-            android:layout_height="@dimen/button"
+            android:layout_width="@dimen/margin"
+            android:layout_height="@dimen/margin"
             android:text="Editar"
             android:id="@+id/btn_editar"
             android:background="@drawable/bordes_botones"
-            android:textColor="@color/Blanco"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true" />
+            android:textColor="@color/Negro"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ListView
+            android:id="@+id/listvE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_numero">
+
+        </ListView>
 
 </RelativeLayout>

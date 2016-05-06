@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SalvameVersion2</string>
+    <string name="app_name">Salvame</string>
     <string name="enviar">ENVIAR</string>
     <string name="escribe_tu_mensaje">ESCRIBE TU MENSAJE</string>
     <string name="graba_tu_mensaje">GRABA TU MENSAJE</string>
     <string name="add">Agregar</string>
     <string name="edit">Editar</string>
-    <string name="delete">Delete</string>
+    <string name="delete">Eliminar</string>
     <string name="guardar">GUARDAR</string>
 </resources>

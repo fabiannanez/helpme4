@@ -20,7 +20,7 @@
                 android:id="@+id/audio"
                 android:layout_width="@dimen/medium"
                 android:layout_height="@dimen/medium"
-                android:backgroundTint="@color/Blanco"
+                android:backgroundTint="@color/Negro"
                 android:background="@drawable/audio_micro"
                 />
             <ImageButton
@@ -28,7 +28,7 @@
                 android:id="@+id/texto"
                 android:layout_height="@dimen/medium"
                 android:layout_alignParentRight="true"
-                android:backgroundTint="@color/Blanco"
+                android:backgroundTint="@color/Negro"
                 android:background="@drawable/txt"
                 />
             <ImageButton
