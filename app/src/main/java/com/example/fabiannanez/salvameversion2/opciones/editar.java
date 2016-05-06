@@ -4,12 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.fabiannanez.salvameversion2.R;
 
-public class editar extends AppCompatActivity {
+public class Editar extends AppCompatActivity {
 
     Button guardar_edit;
 
@@ -22,7 +21,7 @@ public class editar extends AppCompatActivity {
         guardar_edit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(editar.this, "SALVADOR EDITADO", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Editar.this, "SALVADOR EDITADO", Toast.LENGTH_SHORT).show();
             }
         });
 

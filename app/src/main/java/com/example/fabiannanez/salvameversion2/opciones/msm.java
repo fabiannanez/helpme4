@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.example.fabiannanez.salvameversion2.R;
 
-public class msm extends AppCompatActivity {
+public class Msm extends AppCompatActivity {
 
     Button enviarmsm;
 
@@ -22,7 +22,7 @@ public class msm extends AppCompatActivity {
         enviarmsm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(msm.this, "MENSAJE ENVIADO", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Msm.this, "MENSAJE ENVIADO", Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -1,4 +1,4 @@
-package com.example.fabiannanez.salvameversion2;
+package com.example.fabiannanez.salvameversion2.opciones;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
@@ -6,12 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ProgressBar;
 
+import com.example.fabiannanez.salvameversion2.MainActivity;
+import com.example.fabiannanez.salvameversion2.R;
+
 public class SplashScreem extends AppCompatActivity {
 
-    public static final int segundos=8;
+    public static final int segundos=2;
     public static final int milisegundos=segundos*1000;
     private ProgressBar progressBar;
-    public static final int delay=2;
+    public static final int delay=1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

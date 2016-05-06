@@ -10,9 +10,10 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.fabiannanez.salvameversion2.opciones.agregar;
-import com.example.fabiannanez.salvameversion2.opciones.editar;
-import com.example.fabiannanez.salvameversion2.opciones.msm;
+import com.example.fabiannanez.salvameversion2.opciones.Agregar;
+import com.example.fabiannanez.salvameversion2.opciones.Audio;
+import com.example.fabiannanez.salvameversion2.opciones.Editar;
+import com.example.fabiannanez.salvameversion2.opciones.Msm;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 text.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent text = new Intent(getApplicationContext(), msm.class);
+                        Intent text = new Intent(getApplicationContext(), Msm.class);
                         startActivities(new Intent[]{text});
                     }
                 });
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 grabar.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent audio = new Intent(getApplicationContext(), com.example.fabiannanez.salvameversion2.opciones.audio.class);
+                        Intent audio = new Intent(getApplicationContext(), Audio.class);
                         startActivities(new Intent[]{audio});
                     }
                 });
@@ -65,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.add:
-                Intent intent = new Intent(this, agregar.class);
+                Intent intent = new Intent(this, Agregar.class);
                 startActivity(intent);
                 return true;
             case R.id.edit:
-                Intent inten = new Intent(this, editar.class);
+                Intent inten = new Intent(this, Editar.class);
                 startActivity(inten);
                 return true;
             case R.id.delete:
