@@ -33,7 +33,7 @@
         android:text="@string/guardar"
         android:id="@+id/btn_editar"
         android:background="@drawable/bordes_botones"
-        android:textColor="@color/Negro"
+        android:textColor="@color/Blanco"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

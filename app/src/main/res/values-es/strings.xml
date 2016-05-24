@@ -8,4 +8,11 @@
     <string name="edit">Editar</string>
     <string name="delete">Eliminar</string>
     <string name="guardar">GUARDAR</string>
+    <string name="settings">Ajustes</string>
+    <string name="record">Grabar</string>
+    <string name="stop">detener</string>
+    <string name="play">reproducir</string>
+    <string name="status">Estado</string>
+    <string name="salavador">Salvador</string>
+    <string name="mensaje_pregrabado">Mensaje pregrabado</string>
 </resources>

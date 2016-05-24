@@ -14,8 +14,8 @@
     <ImageView
         android:layout_width="@dimen/medium"
         android:layout_height="@dimen/medium"
-        android:backgroundTint="@color/Negro"
-        android:background="@drawable/txt"
+        android:backgroundTint="@color/Blanco"
+        android:background="@drawable/ic_msm"
         android:id="@+id/imageView" />
 
     <Button
@@ -24,7 +24,7 @@
         android:layout_width="@dimen/medium"
         android:layout_height="@dimen/medium"
         android:text="@string/enviar"
-        android:textColor="@color/Negro"
+        android:textColor="@color/Blanco"
         android:background="@drawable/bordes_botones"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"

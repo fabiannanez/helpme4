@@ -11,46 +11,34 @@
     android:orientation="vertical"
     android:background="@drawable/fondo"
     >
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         >
-
-
-
-
         <ImageButton
             android:id="@+id/audio"
             android:layout_width="@dimen/medium"
             android:layout_height="@dimen/medium"
-            android:backgroundTint="@color/Negro"
+            android:backgroundTint="@color/Blanco"
             android:background="@drawable/audio_micro"
             />
-
         <ImageButton
             android:layout_width="@dimen/medium"
             android:id="@+id/texto"
             android:layout_height="@dimen/medium"
             android:layout_alignParentRight="true"
-            android:backgroundTint="@color/Negro"
-            android:background="@drawable/txt"
+            android:backgroundTint="@color/Blanco"
+            android:background="@drawable/ic_msm"
             />
-
         <ImageButton
             android:id="@+id/ayuda"
             android:layout_gravity="center"
             android:layout_width="@dimen/semedio"
             android:layout_height="@dimen/semedio"
-            android:background="@drawable/ball_red"
+            android:background="@drawable/ic_salvame"
+            android:backgroundTint="@color/Blanco"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
-
-
     </RelativeLayout>
-
-
-
-
 </LinearLayout>

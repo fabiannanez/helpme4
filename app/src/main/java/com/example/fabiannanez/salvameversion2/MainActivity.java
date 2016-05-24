@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.fabiannanez.salvameversion2.opciones.Agregar;
 import com.example.fabiannanez.salvameversion2.opciones.Audio;
+import com.example.fabiannanez.salvameversion2.opciones.Config;
 import com.example.fabiannanez.salvameversion2.opciones.Editar;
 import com.example.fabiannanez.salvameversion2.opciones.Msm;
 
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "MENSAJE ENVIADO", Toast.LENGTH_SHORT).show();
                     }
                 });
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -76,6 +78,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.delete:
                 Toast.makeText(MainActivity.this, "Eliminar", Toast.LENGTH_SHORT).show();
                 return true;
+            case R.id.settings:
+                Intent inte = new Intent(this, Config.class);
+                startActivity(inte);
+                Toast.makeText(MainActivity.this, "hghghf", Toast.LENGTH_SHORT).show();
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

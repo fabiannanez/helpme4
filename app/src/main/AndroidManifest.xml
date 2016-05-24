@@ -8,20 +8,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icon_salvame"
+        android:icon="@drawable/icon1"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".opciones.SplashScreem">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:name=".opciones.Agregar">
@@ -29,22 +24,34 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".opciones.Audio">
+        <activity
+            android:name=".opciones.Audio"
+            android:label="@string/record">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".opciones.Editar">
+        <activity
+            android:name=".opciones.Editar"
+            android:label="@string/edit">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".opciones.Msm">
+        <activity
+            android:name=".opciones.Msm"
+            android:label="@string/escribe_tu_mensaje">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".opciones.Config">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

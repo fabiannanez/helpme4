@@ -20,7 +20,7 @@
                 android:id="@+id/audio"
                 android:layout_width="@dimen/medium"
                 android:layout_height="@dimen/medium"
-                android:backgroundTint="@color/Negro"
+                android:backgroundTint="@color/Blanco"
                 android:background="@drawable/audio_micro"
                 />
             <ImageButton
@@ -28,15 +28,16 @@
                 android:id="@+id/texto"
                 android:layout_height="@dimen/medium"
                 android:layout_alignParentRight="true"
-                android:backgroundTint="@color/Negro"
-                android:background="@drawable/txt"
+                android:backgroundTint="@color/Blanco"
+                android:background="@drawable/ic_msm"
                 />
             <ImageButton
                 android:id="@+id/ayuda"
-                android:layout_width="@dimen/medium"
-                android:layout_height="@dimen/medium"
-                android:background="@drawable/ball_red"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@+id/audio" />
+                android:layout_width="@dimen/button"
+                android:layout_height="@dimen/button"
+                android:background="@drawable/ic_salvame"
+                android:backgroundTint="@color/Blanco"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </LinearLayout>

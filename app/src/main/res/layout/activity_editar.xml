@@ -31,12 +31,12 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
         <Button
-            android:layout_width="@dimen/margin"
-            android:layout_height="@dimen/margin"
+            android:layout_width="@dimen/medium"
+            android:layout_height="@dimen/medium"
             android:text="Editar"
             android:id="@+id/btn_editar"
             android:background="@drawable/bordes_botones"
-            android:textColor="@color/Negro"
+            android:textColor="@color/Blanco"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
