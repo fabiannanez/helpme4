@@ -34,6 +34,7 @@ public class Agregar extends AppCompatActivity {
         assert listView != null;
         listView.setAdapter(adapter);
 
+
         etx_Nombre=(EditText)findViewById(R.id.etx_nombre);
         etx_Numero=(EditText)findViewById(R.id.etx_numero);
 
@@ -47,7 +48,7 @@ public class Agregar extends AppCompatActivity {
                 arrayList.add(newItem);
                 arrayList.add(newItem1);
                 adapter.notifyDataSetChanged();
-                    Toast.makeText(Agregar.this, "SALVADOR AGREGADO", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Agregar.this, "SALVADOR AGREGADO", Toast.LENGTH_SHORT).show();
 
                 }
         });

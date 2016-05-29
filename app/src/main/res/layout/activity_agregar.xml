@@ -32,11 +32,12 @@
         android:layout_below="@+id/etx_nombre"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
     <ImageButton
         android:id="@+id/btn_agregar"
         android:layout_width="@dimen/margin"
         android:layout_height="@dimen/margin"
-        android:background="@drawable/add"
+        android:background="@drawable/ic_save"
         android:textColor="@color/Blanco"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/etx_nombre"

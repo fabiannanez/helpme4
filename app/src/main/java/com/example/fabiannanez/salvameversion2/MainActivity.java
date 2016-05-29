@@ -72,18 +72,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.edit:
-                Intent inten = new Intent(this, Editar.class);
-                startActivity(inten);
+                Intent p = new Intent(this, Editar.class);
+                startActivity(p);
                 return true;
             case R.id.delete:
                 Toast.makeText(MainActivity.this, "Eliminar", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.settings:
-                Intent inte = new Intent(this, Config.class);
-                startActivity(inte);
-                Toast.makeText(MainActivity.this, "hghghf", Toast.LENGTH_SHORT).show();
+                Intent pag = new Intent(this, Config.class);
+                startActivity(pag);
                 return true;
-
             default:
                 return super.onOptionsItemSelected(item);
         }
