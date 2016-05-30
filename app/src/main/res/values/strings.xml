@@ -16,4 +16,5 @@
     <string name="salavador">Rescuer</string>
     <string name="mensaje_pregrabado">prerecorded message</string>
     <string name="comunicado">PRESS THE BUTTON TO SEND HIS MESSAGE OF AUDIO OR A PREDETERMINED TEXT</string>
+    <string name="agregar_miembro">Agregar miembro</string>
 </resources>
