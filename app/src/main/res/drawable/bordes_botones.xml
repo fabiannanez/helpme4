@@ -7,8 +7,5 @@ android:shape= "rectangle"
     android:startColor="@color/gris"
     android:centerColor="@color/colorPrimary"
     android:endColor="@color/gris"
-
-
-
     />
 </shape>

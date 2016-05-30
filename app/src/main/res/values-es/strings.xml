@@ -15,4 +15,5 @@
     <string name="status">Estado</string>
     <string name="salavador">Salvador</string>
     <string name="mensaje_pregrabado">Mensaje pregrabado</string>
+    <string name="comunicado">PRESIONE EL BOTON PARA ENVIAR SU MENSAJE DE AUDIO O UN TEXTO PREDETERMINADO</string>
 </resources>
