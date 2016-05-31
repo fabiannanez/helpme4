@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import com.example.fabiannanez.salvameversion2.R;
 
 public class Config extends AppCompatActivity {
@@ -27,11 +26,13 @@ public class Config extends AppCompatActivity {
                 startActivities(new Intent[]{sal});
             }
          });
-                mensaje.setOnClickListener(new View.OnClickListener() {
+
+
+        mensaje.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent audio = new Intent(getApplicationContext(), Audio.class);
-                        startActivities(new Intent[]{audio});
+                    Intent msm = new Intent(getApplicationContext(), Mensaje.class);
+                    startActivities(new Intent[]{msm});
                     }
                 });
 }

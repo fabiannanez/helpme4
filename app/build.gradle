@@ -4,6 +4,8 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
+    dataBinding{enabled = true}
+
     defaultConfig {
         applicationId "com.example.fabiannanez.salvameversion2"
         minSdkVersion 15
@@ -24,4 +26,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

@@ -11,6 +11,10 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
+import com.example.fabiannanez.salvameversion2.BaseDatos.AgregarMiembro;
+import com.example.fabiannanez.salvameversion2.BaseDatos.DBhelper;
+import com.example.fabiannanez.salvameversion2.BaseDatos.ModificarMiembro;
+import com.example.fabiannanez.salvameversion2.BaseDatos.SQLControlador;
 import com.example.fabiannanez.salvameversion2.R;
 
 public class Salvador extends AppCompatActivity {

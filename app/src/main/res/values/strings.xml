@@ -4,17 +4,18 @@
     <string name="enviar">Send</string>
     <string name="escribe_tu_mensaje">Write your message</string>
     <string name="graba_tu_mensaje">Record your message</string>
-    <string name="add">Add</string>
-    <string name="edit">Edit</string>
-    <string name="delete">Delete</string>
-    <string name="guardar">Save</string>
     <string name="settings">settings</string>
     <string name="status">Status</string>
     <string name="record">Record</string>
     <string name="stop">Stop</string>
     <string name="play">Play</string>
-    <string name="salavador">Rescuer</string>
+    <string name="salavador">Rescuers</string>
     <string name="mensaje_pregrabado">prerecorded message</string>
     <string name="comunicado">PRESS THE BUTTON TO SEND HIS MESSAGE OF AUDIO OR A PREDETERMINED TEXT</string>
-    <string name="agregar_miembro">Agregar miembro</string>
+    <string name="agregar_miembro">Add member</string>
+    <string name="guardar">SAVE</string>
+    <string name="agregue_numero">Number Add</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="agregar">Agregar</string>
 </resources>

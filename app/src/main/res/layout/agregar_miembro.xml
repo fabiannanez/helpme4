@@ -8,22 +8,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".opciones.AgregarMiembro">
+    android:background="@drawable/fondo"
+    tools:context=".BaseDatos.AgregarMiembro">
+
+
 
     <EditText
         android:id="@+id/et_miembro_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="40dp"
-        android:hint="Agregue aquí el nuevo miembro ...">
+        android:inputType="phone"
+        android:textColor="@color/Blanco"
+        android:textColorHint="@color/Blanco"
+        android:layout_marginTop="@dimen/treinta"
+        android:hint="@string/agregue_numero">
         <requestFocus />
     </EditText>
 
     <Button
         android:id="@+id/btnAgregarId"
         android:layout_width="wrap_content"
+        android:background="@drawable/btn_circle"
+        android:textColor="@color/Blanco"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Agregar" />
+        android:layout_marginTop="@dimen/treinta"
+        android:text="@string/agregar" />
 </LinearLayout>

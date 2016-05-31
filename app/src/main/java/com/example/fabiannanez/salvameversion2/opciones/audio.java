@@ -15,7 +15,6 @@ import com.example.fabiannanez.salvameversion2.R;
 
 import java.io.File;
 import java.io.IOException;
-
 public class Audio extends Activity implements MediaPlayer.OnCompletionListener {
 
     TextView tv1;

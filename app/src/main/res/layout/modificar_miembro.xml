@@ -8,13 +8,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".opciones.ModificarMiembro">
+    android:background="@drawable/fondo"
+    tools:context=".BaseDatos.ModificarMiembro">
     <EditText
         android:id="@+id/et_miembro_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:ems="10" />
+        android:ems="10"
+        android:textColor="@color/Blanco"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,13 +29,20 @@
             android:id="@+id/btnActualizar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Actualizar" />
+            android:background="@drawable/bordes_botones"
+            android:textColor="@color/Blanco"
+            android:layout_marginRight="@dimen/treinta"
+            android:layout_marginTop="@dimen/treinta"
+            android:text="@string/actualizar" />
 
         <Button
             android:id="@+id/btnEliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eliminar" />
+            android:background="@drawable/bordes_botones"
+            android:textColor="@color/Blanco"
+            android:layout_marginTop="@dimen/treinta"
+            android:text="@string/eliminar" />
     </LinearLayout>
 
 

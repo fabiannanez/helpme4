@@ -25,7 +25,7 @@
             android:textSize="@dimen/veinte"
             android:gravity="center"
             android:id="@+id/textView" />
-        <ImageButton
+        <Button
             android:id="@+id/audio"
             android:layout_width="@dimen/medium"
             android:layout_height="@dimen/medium"
@@ -44,13 +44,12 @@
             android:background="@drawable/ic_msm"
             />-->
 
-        <ImageButton
+        <Button
             android:id="@+id/ayuda"
             android:layout_gravity="center"
             android:layout_width="@dimen/doscincuanta"
             android:layout_height="@dimen/doscincuanta"
             android:background="@drawable/ic_salvame"
-            android:backgroundTint="@color/Blanco"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>

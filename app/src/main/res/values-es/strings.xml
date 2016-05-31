@@ -4,16 +4,15 @@
     <string name="enviar">ENVIAR</string>
     <string name="escribe_tu_mensaje">ESCRIBE TU MENSAJE</string>
     <string name="graba_tu_mensaje">GRABA TU MENSAJE</string>
-    <string name="add">Agregar</string>
-    <string name="edit">Editar</string>
-    <string name="delete">Eliminar</string>
-    <string name="guardar">GUARDAR</string>
     <string name="settings">Ajustes</string>
     <string name="record">Grabar</string>
     <string name="stop">detener</string>
     <string name="play">reproducir</string>
     <string name="status">Estado</string>
-    <string name="salavador">Salvador</string>
-    <string name="mensaje_pregrabado">Mensaje pregrabado</string>
+    <string name="salavador">Salvadores</string>
+    <string name="mensaje_pregrabado">Mensaje Pregrabado</string>
     <string name="comunicado">PRESIONE EL BOTON PARA ENVIAR SU MENSAJE DE AUDIO O UN TEXTO PREDETERMINADO</string>
+    <string name="agregar_miembro">Agregar Miembro</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="agregue_numero">Agregar Numero</string>
 </resources>

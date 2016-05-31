@@ -3,13 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <TextView
         android:id="@+id/miembro_id"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:textColor="@color/Blanco"
+        />
 
     <TextView
         android:id="@+id/miembro_nombre"
@@ -17,6 +20,9 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:textSize="17sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/Blanco"
+
+        />
 
 </LinearLayout>

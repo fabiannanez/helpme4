@@ -1,4 +1,4 @@
-package com.example.fabiannanez.salvameversion2.opciones;
+package com.example.fabiannanez.salvameversion2.BaseDatos;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.fabiannanez.salvameversion2.BaseDatos.SQLControlador;
 import com.example.fabiannanez.salvameversion2.R;
+import com.example.fabiannanez.salvameversion2.opciones.Salvador;
 
 public class ModificarMiembro extends Activity implements View.OnClickListener {
 

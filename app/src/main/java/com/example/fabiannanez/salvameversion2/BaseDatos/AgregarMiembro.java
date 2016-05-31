@@ -1,4 +1,4 @@
-package com.example.fabiannanez.salvameversion2.opciones;
+package com.example.fabiannanez.salvameversion2.BaseDatos;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.fabiannanez.salvameversion2.R;
+import com.example.fabiannanez.salvameversion2.opciones.Salvador;
 
 public class AgregarMiembro extends AppCompatActivity {
 
     EditText et;
-    Button btnAgregar, read_bt;
+    Button btnAgregar;
     SQLControlador dbconeccion;
 
 
