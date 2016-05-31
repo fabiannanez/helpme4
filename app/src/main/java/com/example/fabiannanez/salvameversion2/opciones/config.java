@@ -27,6 +27,14 @@ public class Config extends AppCompatActivity {
             }
          });
 
+       /* mensaje.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent home_intent = new Intent(getApplicationContext(),
+                        Mensaje.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(home_intent);
+            }
+        }); */
 
         mensaje.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -35,5 +43,6 @@ public class Config extends AppCompatActivity {
                     startActivities(new Intent[]{msm});
                     }
                 });
+
 }
 }

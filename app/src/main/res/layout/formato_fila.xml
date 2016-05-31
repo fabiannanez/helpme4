@@ -11,15 +11,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        android:textColor="@color/Blanco"
         />
 
     <TextView
         android:id="@+id/miembro_nombre"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:textSize="17sp"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/diezseis"
         android:textStyle="bold"
         android:textColor="@color/Blanco"
 

@@ -9,28 +9,25 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/fondo"
-    tools:context=".BaseDatos.AgregarMiembro"
-    >
+    tools:context=".BaseDatos.AgregarMiembro">
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/solo_numero_telefonico_valido"
-    android:textColor="@color/Blanco"
-    style="@style/Base.TextAppearance.AppCompat.Title"
-    />
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/solo_numero_telefonico_valido"
+        android:textColor="@color/Blanco"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        />
 
     <EditText
         android:id="@+id/et_miembro_id"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="phone"
+        android:layout_marginTop="@dimen/treinta"
         android:textColor="@color/Blanco"
         android:textColorHint="@color/Blanco"
-        android:layout_marginTop="@dimen/treinta"
         android:hint="@string/agregue_numero">
         <requestFocus />
     </EditText>
@@ -41,7 +38,8 @@
         android:background="@drawable/btn_circle"
         android:textColor="@color/Blanco"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/treinta"
-        android:text="@string/agregar" />
+        android:text="@string/agregar"
+        android:layout_gravity="right"/>
+
+
 </LinearLayout>

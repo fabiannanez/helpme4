@@ -14,7 +14,7 @@
         android:id="@+id/et_miembro_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/treinta"
+        android:layout_marginTop="40dp"
         android:ems="10"
         android:textColor="@color/Blanco"
         />
@@ -29,9 +29,9 @@
             android:id="@+id/btnActualizar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/botones"
+            android:background="@drawable/btn_circle"
             android:textColor="@color/Blanco"
-            android:layout_marginRight="@dimen/treinta"
+            android:layout_marginRight="@dimen/margin"
             android:layout_marginTop="@dimen/treinta"
             android:text="@string/actualizar" />
 
@@ -39,7 +39,7 @@
             android:id="@+id/btnEliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/botones"
+            android:background="@drawable/btn_circle"
             android:textColor="@color/Blanco"
             android:layout_marginTop="@dimen/treinta"
             android:text="@string/eliminar" />

@@ -13,4 +13,6 @@
     <dimen name="cienveinte">120sp</dimen>
     <dimen name="doscincuanta">250dp</dimen>
     <dimen name="docientos">200dp</dimen>
+    <dimen name="diezseis">16sp</dimen>
+    <dimen name="dos">2dp</dimen>
 </resources>
