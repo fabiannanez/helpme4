@@ -22,7 +22,7 @@ public class Config extends AppCompatActivity {
         salvador.setOnClickListener(new View.OnClickListener() {
             @Override
                 public void onClick(View v) {
-                Intent sal = new Intent(getApplicationContext(), Salvador.class);
+                Intent sal = new Intent(getApplicationContext(), Contacto.class);
                 startActivities(new Intent[]{sal});
             }
          });

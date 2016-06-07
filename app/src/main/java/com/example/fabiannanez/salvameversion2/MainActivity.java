@@ -1,20 +1,14 @@
 package com.example.fabiannanez.salvameversion2;
 
-import android.app.Activity;
-import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
-import android.content.Context;
+
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telephony.SmsManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.example.fabiannanez.salvameversion2.opciones.Audio;
@@ -25,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     TextView info , txtPh;
     Button grabar;
     Button enviarmsm;
-    EditText txtPhone;
     EditText txtMsm;
 
 
@@ -40,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
         enviarmsm = (Button) findViewById(R.id.ayuda);
 
         /*traigo o que esta guardado en el numero de cel*/
-        txtPh = (TextView)findViewById(R.id.miembro_nombre );
+         txtPh = (TextView)findViewById(R.id.num );
 
-        /*entrega lo que tiene mensaje*/
+        /*traigo lo que tiene mensaje*/
         txtMsm = ((EditText)findViewById(R.id.text_msm));
+
 
         grabar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,12 +47,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-       enviarmsm.setOnClickListener(new View.OnClickListener() {
+      enviarmsm.setOnClickListener(new View.OnClickListener() {
            @Override
-           public void onClick(View v) {
+           public void onClick(View view) {
 
-
-            /*   PendingIntent sentIntent = PendingIntent.getBroadcast(getApplicationContext(), 0, new Intent("SMS_SENT"), 0);
+              /* PendingIntent sentIntent = PendingIntent.getBroadcast(getApplicationContext(), 0, new Intent("SMS_SENT"), 0);
 
                registerReceiver(new BroadcastReceiver() {
 
@@ -85,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                }, new IntentFilter("SMS_SENT"));
 
                SmsManager sms = SmsManager.getDefault();
-               if( txtPhone.getText().toString().length()> 0 &&
+               if( txtPh.getText().toString().length()> 0 &&
                        txtMsm.getText().toString().length()>0 )
                {
                    sms.sendTextMessage( txtPh.getText().toString() , null, txtMsm.getText().toString() , sentIntent, null);
@@ -94,7 +87,8 @@ public class MainActivity extends AppCompatActivity {
                {
                    Toast.makeText(getApplicationContext(), "No se puede enviar, los datos son incorrectos", Toast.LENGTH_SHORT).show();
                }
-                     */
+               /*/
+
                Toast.makeText(MainActivity.this, "MENSAJE ENVIADO...", Toast.LENGTH_SHORT).show();
 
            }

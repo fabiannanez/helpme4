@@ -15,4 +15,5 @@
     <dimen name="docientos">200dp</dimen>
     <dimen name="diezseis">16sp</dimen>
     <dimen name="dos">2dp</dimen>
+    <dimen name="ochenta">80dp</dimen>
 </resources>

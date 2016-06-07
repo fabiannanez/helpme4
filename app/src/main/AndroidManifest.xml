@@ -13,6 +13,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,39 +21,65 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".opciones.Audio"
             android:label="@string/record">
+           <!-- <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />-->
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".opciones.Config"
+
+
+        <activity
+            android:name=".opciones.Config"
             android:label="@string/settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+
         <activity android:name=".opciones.Salvador">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+
         <activity android:name=".BaseDatos.AgregarMiembro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+
         <activity android:name=".BaseDatos.ModificarMiembro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+
         <activity android:name=".opciones.Mensaje">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".opciones.Contacto">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

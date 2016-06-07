@@ -16,8 +16,8 @@
         android:background="@drawable/ic_msm"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/enviar"
-        android:layout_alignStart="@+id/enviar" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/enviar"
@@ -26,9 +26,8 @@
         android:text="@string/guardar"
         android:textColor="@color/Blanco"
         android:background="@drawable/btn_circle"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:gravity="top"
@@ -39,4 +38,5 @@
         android:textColor="@color/Blanco"
         android:layout_marginTop="@dimen/treinta"
         android:id="@+id/editText" />
+
 </RelativeLayout>

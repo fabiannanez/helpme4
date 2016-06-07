@@ -19,4 +19,5 @@
     <string name="eliminar">Delete</string>
     <string name="agregar">Add</string>
     <string name="solo_numero_telefonico_valido">ONLY VALID PHONE NUMBER</string>
+    <string name="ver_sms">SEE SMS</string>
 </resources>
