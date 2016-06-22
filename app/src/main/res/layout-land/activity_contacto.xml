@@ -22,12 +22,12 @@
         android:layout_marginLeft="@dimen/pequeños"
         android:layout_marginTop="@dimen/pequeños"
         android:layout_marginBottom="@dimen/pequeños"
-        android:layout_toLeftOf="@+id/guardarnum"
-        android:layout_toStartOf="@+id/guardarnum">
+        android:layout_toLeftOf="@+id/guardar"
+        android:layout_toStartOf="@+id/guardar">
         <requestFocus />
     </EditText>
 
-     <Button
+   <Button
         android:id="@+id/guardarnum"
         android:layout_width="@dimen/ochenta"
         android:layout_height="@dimen/ochenta"
@@ -36,10 +36,9 @@
         android:background="@drawable/btn_circle"
         android:layout_gravity="center_horizontal"
         android:onClick="guardar"
-         android:layout_alignParentRight="true"
-         android:layout_alignParentEnd="true"
-         android:layout_alignBottom="@+id/num" />
-
+       android:layout_alignTop="@+id/num"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true" />
 
     <EditText
         android:id="@+id/text_msm"
@@ -49,12 +48,10 @@
         android:textColorHint="@color/Blanco"
         android:textColor="@color/Blanco"
         android:inputType="textMultiLine"
-        android:layout_below="@+id/num"
+        android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/num"
         android:layout_alignStart="@+id/num"
-        android:layout_marginTop="50dp"
-        android:layout_toLeftOf="@+id/guardar"
-        android:layout_toStartOf="@+id/guardar" />
+         />
     <Button
         android:id="@+id/guardar"
         android:layout_width="@dimen/ochenta"
@@ -65,20 +62,19 @@
         android:layout_gravity="center_horizontal"
         android:onClick="guardarm"
         android:layout_alignTop="@+id/text_msm"
-        android:layout_alignRight="@+id/guardarnum"
-        android:layout_alignEnd="@+id/guardarnum" />
-
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/sms"
-        android:layout_width="@dimen/medium"
-        android:layout_height="@dimen/medium"
+        android:layout_width="@dimen/ochenta"
+        android:layout_height="@dimen/ochenta"
         android:text="@string/enviar"
         android:textColor="@color/Blanco"
         android:background="@drawable/btn_circle"
         android:layout_gravity="center_horizontal"
         android:onClick="enviarmsm"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/guardar"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

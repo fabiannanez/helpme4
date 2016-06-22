@@ -1,20 +1,18 @@
 package com.example.fabiannanez.salvameversion2.opciones;
 
-import android.app.Activity;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Environment;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
+import android.support.v7.app.AppCompatActivity;
 import com.example.fabiannanez.salvameversion2.R;
-
 import java.io.File;
 import java.io.IOException;
-public class Audio extends Activity implements MediaPlayer.OnCompletionListener {
+
+public class Audio extends AppCompatActivity implements MediaPlayer.OnCompletionListener {
 
     TextView tv1;
     MediaRecorder recorder;
@@ -31,13 +29,6 @@ public class Audio extends Activity implements MediaPlayer.OnCompletionListener 
         b1 = (Button) findViewById(R.id.button1);
         b2 = (Button) findViewById(R.id.button2);
         b3 = (Button) findViewById(R.id.button3);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
     }
 
     public void grabar(View v) {

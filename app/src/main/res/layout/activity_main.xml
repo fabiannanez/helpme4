@@ -25,7 +25,8 @@
             android:textSize="@dimen/veinte"
             android:gravity="center"
             android:id="@+id/textView" />
-        <Button
+
+       <!-- <Button
             android:id="@+id/audio"
             android:layout_width="@dimen/medium"
             android:layout_height="@dimen/medium"
@@ -34,22 +35,16 @@
             android:layout_above="@+id/ayuda"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/treinta" />
+        -->
 
-     <!--   <ImageButton
-            android:layout_width="@dimen/medium"
-            android:id="@+id/texto"
-            android:layout_height="@dimen/medium"
-            android:layout_alignParentRight="true"
-            android:backgroundTint="@color/Blanco"
-            android:background="@drawable/ic_msm"
-            />-->
 
         <Button
             android:id="@+id/ayuda"
             android:layout_gravity="center"
             android:layout_width="@dimen/doscincuanta"
             android:layout_height="@dimen/doscincuanta"
-            android:background="@drawable/ic_salvame"
+            android:background="@drawable/btn_circle2"
+            android:onClick="enviarsms"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>

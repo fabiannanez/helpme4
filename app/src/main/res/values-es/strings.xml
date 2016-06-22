@@ -11,7 +11,7 @@
     <string name="status">Estado</string>
     <string name="salavador">Salvadores</string>
     <string name="mensaje_pregrabado">Mensaje Pregrabado</string>
-    <string name="comunicado">PRESIONE EL BOTON PARA ENVIAR SU MENSAJE DE AUDIO O UN TEXTO PREDETERMINADO</string>
+    <string name="comunicado">PRECIONE EL BOTON PARA ENVIAR UN MENSAJE DE ALERTA</string>
     <string name="agregar_miembro">Agregar Miembro</string>
     <string name="guardar">GUARDAR</string>
     <string name="agregue_numero">Agregar Numero</string>

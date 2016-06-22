@@ -9,15 +9,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icon1"
+        android:icon="@drawable/iconhelp"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -26,9 +26,9 @@
         <activity
             android:name=".opciones.Audio"
             android:label="@string/record">
-           <!-- <meta-data
+            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />-->
+                android:value=".MainActivity" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,6 +46,10 @@
 
 
         <activity android:name=".opciones.Salvador">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -60,25 +64,22 @@
 
 
         <activity android:name=".BaseDatos.ModificarMiembro">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseDatos.AgregarMiembro" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-
-        <activity android:name=".opciones.Mensaje">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-
 
         <activity android:name=".opciones.Contacto">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
 
     </application>
 

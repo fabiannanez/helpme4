@@ -22,9 +22,20 @@
         app:showAsAction="never"/> -->
 
     <item android:id="@+id/settings"
-        android:title="@string/settings"
-        android:icon="@android:drawable/ic_menu_manage"
-        android:backgroundTint="@color/Blanco"
+        android:title="@string/sms"
         android:orderInCategory="1"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/opcion2"
+        android:title="@string/bd"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        />
+
+    <item android:id="@+id/opcion3"
+        android:title="Grabar"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        />
+
 </menu>
